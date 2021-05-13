@@ -22,10 +22,10 @@ yarn add @iconscout/react-unicons-thinline
 
 ```js
 import React from "react";
-import UilStar from "@iconscout/react-unicons-thinline/icons/uil-react";
+import UitStar from "@iconscout/react-unicons-thinline/icons/uit-star";
 
 const App = () => {
-  return <UilStar size="140" color="#61DAFB" />;
+  return <UitStar size="140" color="#61DAFB" />;
 };
 
 export default App;
@@ -34,7 +34,7 @@ export default App;
 You can customize icons as below:
 
 ```html
-<Unicons.UilStar size="140" color="#61DAFB" />
+<Unicons.UitStar size="140" color="#61DAFB" />
 ```
 
 ### Usage as full Package
@@ -44,7 +44,7 @@ import React from "react";
 import * as Unicons from "@iconscout/react-unicons-thinline";
 
 const App = () => {
-  return <Unicons.UilStar />;
+  return <Unicons.UitStar />;
 };
 
 export default App;
